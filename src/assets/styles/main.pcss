@@ -19,17 +19,16 @@ body {
   margin: 0;
   background-color: hsl(var(--color-cc-white));
   color: hsl(var(--color-cc-black));
-  padding: 24px;
 }
 
 #app {
-  display: flex;
-  flex-flow: column;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
   width: 100%;
 }
 
 ::-webkit-scrollbar {
-  width: 3px;
+  width: 8px;
 }
 
 /* Track */

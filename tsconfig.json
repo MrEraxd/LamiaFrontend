@@ -13,7 +13,9 @@
     "baseUrl": "./src",
     "paths": {
       "@svg/*": ["assets/svg/*"],
-      "@base/*": ["components/Base/*"]
+      "@base/*": ["components/Base/*"],
+      "@plugins/*": ["plugins/*"],
+      "@store/*": ["stores/*"]
     }
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
